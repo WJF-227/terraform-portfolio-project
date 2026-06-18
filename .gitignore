@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Next.js build files
+.next/
+out/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+
+# OS / editor
+.DS_Store
+.vscode/
