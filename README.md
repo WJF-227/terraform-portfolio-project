@@ -2,9 +2,9 @@
 
 This project deploys a static Next.js portfolio website on AWS using Terraform.
 
-# Architecture
+## Architecture
 
-User → CloudFront → S3 Static Website Bucket → Next.js Static Export
+![Architecture Diagram](Architecture.png)
 
 # Technologies Used
 
