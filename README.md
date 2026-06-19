@@ -34,7 +34,7 @@ User → CloudFront → S3 Static Website Bucket → Next.js Static Export
 
 # Live Website
 
-CloudFront URL: `Add your CloudFront URL here`
+CloudFront URL: https://d19y7jlapazm52.cloudfront.net
 
 # Loom Video
 
