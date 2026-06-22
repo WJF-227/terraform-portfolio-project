@@ -27,7 +27,7 @@ https://d19y7jlapazm52.cloudfront.net
 
 ---
 
-# 🛠 Technologies Used
+# Technologies Used
 
 - Terraform
 - Next.js
