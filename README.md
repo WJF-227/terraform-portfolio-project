@@ -1,6 +1,8 @@
 # Terraform Portfolio Project
 
-This project deploys a static Next.js portfolio website on AWS using Terraform.
+This project demonstrates how to deploy a static Next.js portfolio website to AWS using Infrastructure as Code (IaC) with Terraform.
+
+The website is hosted on Amazon S3, distributed globally through Amazon CloudFront, and managed entirely with Terraform.
 
 ## Architecture
 
@@ -15,13 +17,16 @@ This project deploys a static Next.js portfolio website on AWS using Terraform.
 - AWS CLI
 - GitHub
 
-# Project Goals
+# Infrastructure Created
 
-- Deploy a static Next.js website to AWS
-- Use Terraform for Infrastructure as Code
-- Configure S3 static website hosting
-- Add CloudFront for global delivery and HTTPS
-- Store all project files in GitHub
+Terraform provisions the following AWS resources:
+
+- Amazon S3 Bucket
+- S3 Website Configuration
+- Bucket Ownership Controls
+- Public Access Configuration
+- Bucket Policy
+- Amazon CloudFront Distribution
 
 # Deployment Summary
 
@@ -36,6 +41,18 @@ This project deploys a static Next.js portfolio website on AWS using Terraform.
 
 CloudFront URL: https://d19y7jlapazm52.cloudfront.net
 
-# Loom Video
+# What I Learned
 
-Coming sooon 
+Throughout this project I gained hands-on experience with:
+
+- Infrastructure as Code (Terraform)
+- Amazon S3 Static Website Hosting
+- Amazon CloudFront
+- Terraform state management
+- AWS CLI
+- Git and GitHub workflows
+- Deploying static Next.js applications
+
+# Loom Walkthrough
+
+A walkthrough explaining the project architecture, Terraform configuration, and AWS deployment will be added here.
