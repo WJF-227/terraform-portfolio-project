@@ -4,19 +4,16 @@ This project demonstrates how to deploy a static Next.js website to AWS using In
 
 The application is hosted on Amazon S3 and distributed globally using Amazon CloudFront.
 
----
 
 # Live Website
 
 https://d19y7jlapazm52.cloudfront.net
 
----
 
 # Architecture
 
 ![Architecture Diagram](Architecture.png)
 
----
 
 # AWS Services Used
 
@@ -25,7 +22,6 @@ https://d19y7jlapazm52.cloudfront.net
 - AWS IAM
 - AWS CLI
 
----
 
 # Technologies Used
 
@@ -35,11 +31,9 @@ https://d19y7jlapazm52.cloudfront.net
 - GitHub
 - AWS CLI
 
----
 
 # Project Structure
 
-```
 terraform-portfolio-project/
 │
 ├── nextjs-blog/
@@ -55,9 +49,8 @@ terraform-portfolio-project/
 │
 ├── Architecture.png
 └── README.md
-```
 
----
+
 
 # Infrastructure Created
 
@@ -70,7 +63,6 @@ Terraform provisions the following AWS resources:
 - Bucket Policy
 - Amazon CloudFront Distribution
 
----
 
 # Deployment Process
 
@@ -80,13 +72,12 @@ Terraform provisions the following AWS resources:
 
 ```bash
 npm run build
-```
+
 
 4. Provisioned AWS infrastructure using Terraform.
 5. Uploaded the static website to Amazon S3 using the AWS CLI.
 6. Distributed the website globally with Amazon CloudFront.
 
----
 
 # Lessons Learned
 
@@ -102,13 +93,11 @@ This project helped me gain practical experience with:
 
 One challenge I encountered was that portions of the original course material were written for older versions of Terraform and Next.js. I adapted the implementation to work with the latest versions while achieving the same final architecture and functionality.
 
----
 
 # Loom Walkthrough
 
-Coming Soon
+- [(https://www.loom.com/share/f57c40d4874d4c5d8713da6d98694981)]
 
----
 
 # Future Improvements
 
